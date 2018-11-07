@@ -1,0 +1,39 @@
+Ejercicio 2
+Las siguientes son los promedios finales de evaluación de docentes:
+colegio1 denominado Bolivar:
+[15, 16.5, 17, 19, 20, 19, 10, 16.4, 15.1, 10]
+colegio2 denominado Sur:
+[14, 11.5, 17.2, 18, 19, 17, 20, 19, 19.1, 8]
+Se desea determinar el colegio con mejor promedio de sus docentes, considerar que los promedios de cada colegio son únicamente con los valores mayores o iguales a 16.5
+1. Inicio 
+2. (colegio1(10),d[0-n])
+3. (colegio2(10),d[0-n]
+4. (suma,d[0-n])<--0
+5. (promedio1,d[0-n])
+6. (promedio2,d[0-n])
+7. (contador,i[0-n]<--0
+8. colegio1<--[15, 16.5, 17, 19, 20, 19, 10, 16.4, 15.1, 10]
+9. colegio2<--[14, 11.5, 17.2, 18, 19, 17, 20, 19, 19.1, 8]
+10.Mientras contador<9 entonces
+11.     Si colegio1>=16.5 entonces
+12.         suma<--suma+colegio1[contador]
+13.     FinSi
+14.     contador<--contador+1
+15.FinMientras
+16.promedio1<--suma/5
+17.suma<--0
+18.contador<--0
+19.Mientras contador<9 entonces
+20.     Si colegio2>=16.5 entonces
+21.         suma<--suma+colegio2[contador]
+22.     FinSi
+23.     contador<--contador+1
+24.FinMientras
+25.promedio2<--suma/7
+26.Si promedio1>promedio2 entonces
+27.     <<"El colegio Bolivar tiene mayor promedio:"+promedio1
+28.Caso contrario
+29.     <<" El colegio Sur tiene mayor promedio:"+promedio2
+30.finSi
+31.Fin
+

@@ -1,0 +1,35 @@
+Ejercicio 3
+
+Las siguientes son los promedios finales de evaluación de docentes:
+colegio1 denominado Bolivar:
+[15, 16.5, 17, 19, 20, 19, 10, 16.4, 15.1, 10]
+colegio2 denominado Sur:
+[14, 11.5, 17.2, 18, 19, 17, 20, 19, 19.1, 8]
+
+Se desea determinar el promedio de final de todos los docentes de los dos colegios
+1. Inicio 
+2. (colegio1(10),d[0-n])
+3. (colegio2(10),d[0-n]
+4. (suma,d[0-n])<--0
+5. (promedio1,d[0-n])
+6. (promedio2,d[0-n])
+7. (contador,i[0-n]<--0
+8. (promediofinal,d[0-n])
+9. colegio1<--[15, 16.5, 17, 19, 20, 19, 10, 16.4, 15.1, 10]
+10.colegio2<--[14, 11.5, 17.2, 18, 19, 17, 20, 19, 19.1, 8]
+11.Mientras contador<9 entonces
+12.    suma<--suma+colegio1[contador]
+13.    contador<--contador+1
+14.FinMientras
+15.promedio1<--suma/10
+16.contador<--0
+17.suma<--0
+18. Mientras contador<9 entonces
+19.    suma<--suma+colegio2[contador]
+20.    contador<--contador+1
+21.FinMientras
+22.promedio2<--suma/10
+23.promediofinal<--(promedio1+promedio2)/2
+24.<<"El promedio final es "+promediofinal
+25.Fin
+23.promediofinal<-- promedio1+promedio2

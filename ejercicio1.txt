@@ -1,0 +1,24 @@
+Las siguientes son las edades de un conjunto de estudiantes:
+[10,18,19,11,20,21,16,15,11,12]
+Se desea encontrar el promedio de edades, solo de las edades mayores o iguales a 16
+1. Inicio
+2. (edades(10),i[0-n])
+3. (suma,i[0-n])<--0
+4. (contador,i[0-n])<--0
+5. (promedio,[0-n])
+6. edades<--[10,18,19,11,20,21,16,15,11,12]
+7. Mientras contador<9 entonces
+8.    Si edadades>=16 entonces
+9.        suma<-- suma+edades[contador]
+10.   FinSi
+11.   contador<--contador+1
+12.FinMientras
+13.promedio<--suma/5
+14.<<"El promedio de las edades mayores a 16 es:"+promedio
+13.Fin
+
+      
+
+     
+ 
+     
