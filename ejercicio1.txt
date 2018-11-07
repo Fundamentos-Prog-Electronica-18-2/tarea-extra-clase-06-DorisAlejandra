@@ -14,8 +14,8 @@ Se desea encontrar el promedio de edades, solo de las edades mayores o iguales a
 11.   contador<--contador+1
 12.FinMientras
 13.promedio<--suma/5
-14.<<"El promedio de las edades mayores a 16 es:"+promedio
-13.Fin
+14.<<"El promedio de las edades mayores o iguales a 16  es:"+promedio
+15.Fin
 
       
 
