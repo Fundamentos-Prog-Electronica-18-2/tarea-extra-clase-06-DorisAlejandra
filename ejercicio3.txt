@@ -1,6 +1,6 @@
 Ejercicio 3
 
-Las siguientes son los promedios finales de evaluación de docentes:
+Las siguientes son los promedios finales de evaluaciÃ³n de docentes:
 colegio1 denominado Bolivar:
 [15, 16.5, 17, 19, 20, 19, 10, 16.4, 15.1, 10]
 colegio2 denominado Sur:
@@ -32,4 +32,4 @@ Se desea determinar el promedio de final de todos los docentes de los dos colegi
 23.promediofinal<--(promedio1+promedio2)/2
 24.<<"El promedio final es "+promediofinal
 25.Fin
-23.promediofinal<-- promedio1+promedio2
+
